@@ -1,0 +1,41 @@
+﻿/* header */	
+header {
+	width: 100%; background-color: #ffffce; margin: 1px;
+	padding-left: 1px;	padding-right: 1px; padding-top: 1px; padding-bottom: 1px;
+	vertical-align:middle;
+	font-size:small;
+}
+/* menu */
+nav { width: 96%; }
+nav ul li { display: block;	list-style: none; margin: 0; padding: 0; }
+nav ul { border-bottom: 1px solid #888;	float: left; width: 100%; padding-left: 5px; padding-top: 0px; }
+nav ul li { float: left; margin-right: 5px; }
+nav ul a:link, ul a:visited { text-decoration: none; display: block; background-color: #ffffa0; 
+	color: brown; padding: 3px 3px; border: 1px solid brown; position: relative; top: 1px; }
+nav ul a:hover { background-color: orange; border-bottom-color: #bdffff; }
+
+/* content */	
+article    { width:98%; background-color:white; margin: 0px; border: 2px solid orange; 
+			 padding-top: 0px; padding-bottom: 3px; padding-left: 3px; padding-right: 0px; }
+article p  { padding:10px; }
+article h1 { color: brown; }
+article h2 { color: brown; }
+article h3 { color: brown; }
+article h4 { color: brown; }
+/* article ul li { list-style-type: square; color: brown; } */
+
+/* footer */	
+footer   { width:99%; height:20px; background:orange; margin: 1px; 
+		   padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
+footer p { color:brown; text-align:center; }
+footer a { color:blue; font-style:italic;}
+
+/* kolor fontu i tla portalu */	
+body { background-color: #ffffce; color: black; margin: 1px; }
+
+/* tabela */	
+table, td, th { border: 2px solid orange; border-collapse: collapse; text-align: center; padding: 1px; } 
+th { background-color: blue; color: white;}
+caption { text-align:left; color:blue; font-style:italic; padding-left: 3px; font-weight: bold; }
+
+
